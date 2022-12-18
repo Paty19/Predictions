@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/fortune-teller-with-glowing-crystal-ball-picture-id108194384?b=1&k=20&m=108194384&s=170667a&w=0&h=Tqe9SBNo759LfS8m0xZDHVwXOvcG9BVRSpNWFIdp0qk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn {
+ border-radius: 50px;
+ padding: 10px;
+ font-size: 30px;
+ border: none;
+ font-family: 'Lobster', cursive;
+ position: fixed;
+ color: #FBFF00;
+ background-color: #2C2E43;
+
+}
+
+#par {
+  display: none;
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  background-color: #2C2E43;
+  margin-top: 400px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 50px;
+  width: 70%;
+  text-align: center;
+  color: #78DEC7;
+  
+}
+#myButton{
+  background-color: #FBFF00; 
+  margin-left:100px;
+  margin-top: 10px;
+  padding: 15px;
+  border:black 2px solid;
+  border-radius: 15px;
+}
